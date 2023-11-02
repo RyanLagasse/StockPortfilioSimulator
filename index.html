@@ -2,24 +2,52 @@
 <html>
 <head>
     <title>Stock Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            padding: 20px;
+        }
+
+        .nav-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        #portfolio {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
     <h1>My Stock Portfolio</h1>
+    
+    <!-- Navigation links -->
+    <ul class="nav-links">
+        <li><a href="messages.html">Messages</a></li>
+        <li><a href="reports.html">Reports</a></li>
+    </ul>
+
     <div id="portfolio">
-        <table>
-            <thead>
-                <tr>
-                    <th>Stock Symbol</th>
-                    <th>Number of Shares</th>
-                    <th>Current Price</th>
-                    <th>Total Value</th>
-                </tr>
-            </thead>
-            <tbody id="portfolio-table-body">
-                <!-- Portfolio stocks will be dynamically inserted here -->
-            </tbody>
-        </table>
+        <!-- Rest of your code... -->
     </div>
 
     <script src="main.js"></script>
