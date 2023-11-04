@@ -2,53 +2,29 @@
 <html>
 <head>
     <title>Stock Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-
-        h1 {
-            color: #333;
-            text-align: center;
-            padding: 20px;
-        }
-
-        .nav-links {
-            display: flex;
-            justify-content: center;
-            list-style-type: none;
-            padding: 20px;
-        }
-
-        .nav-links a {
-            margin: 0 10px;
-            text-decoration: none;
-            color: #333;
-        }
-
-        #portfolio {
-            margin: 20px;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 5px;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="Mainstyles.css">
 </head>
 <body>
-    <h1>My Stock Portfolio</h1>
-    
-    <!-- Navigation links -->
-    <ul class="nav-links">
-        <li><a href="messages.html">Messages</a></li>
-        <li><a href="reports.html">Reports</a></li>
-    </ul>
+    <header>
+        <!-- Logo -->
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
 
-    <div id="portfolio">
-        <!-- Rest of your code... -->
-    </div>
+        <!-- Navigation links -->
+        <div class="nav-links">
+            <a href="login.html">Login/Signup</a>
+            <a href="messages.html">Messages</a>
+            <a href="reports.html">Reports</a>
+        </div>
+    </header>
+
+    <!-- New section -->
+    <section>
+        <h1>Portfol.io Mission</h1>
+        <p>We Make Understanding Your Investments Intuitive.</p>
+        <a href="login.html"><button>Learn More</button></a>
+    </section>
 
     <script src="main.js"></script>
 </body>
